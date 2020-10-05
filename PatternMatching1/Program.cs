@@ -11,7 +11,7 @@ namespace PatternMatching1
 
             
 
-            String Pattern = "^[1-9]{1}[0-9]{5}$";
+            String Pattern = "^[1-9]{3}[ ]{0,1}[0-9]{3}$";
 
             Regex r = new Regex(Pattern);
 
